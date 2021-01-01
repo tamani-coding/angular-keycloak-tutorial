@@ -4,6 +4,7 @@ Angular + Keycloak example projekt
 ## references
 
 * keycloak getting started
+	* https://www.keycloak.org/getting-started/getting-started-docker
 	* https://www.keycloak.org/docs/latest/getting_started/index.html
 * angular keycloak
 	* https://www.npmjs.com/package/keycloak-angular
@@ -51,3 +52,10 @@ Setup KeycloakAngular in AppModule: add initialize function, provider and import
 ## add guard to app
 
 `ng generate guard keycloak`
+
+## loading user profile into your app
+
+Configure keycloak angular  with 'loadUserProfileAtStartUp: true' to load user profile.
+
+With KeycloakService you can access user profile details.
+
