@@ -12,7 +12,7 @@ Angular + Keycloak example projekt
 
 `docker-compose up`
 
-## initialize realm and demo user
+## initialize realm and demo user and client
 
 * log into administration console with admin user `http://localhost:8080/auth`
 * create a new realm e.g. `my-demo-realm` 
@@ -25,7 +25,7 @@ Angular + Keycloak example projekt
 	* `http://localhost:8080/auth/realms/my-demo-realm/account/`
 	* insert a new password when asked
 	* complete required fields such as email, firstname, lastname
-* your are ready to use the user
+* in the admin console go to Client and create a new client `my-demo-client`
 
 ## creating an angular project
 
