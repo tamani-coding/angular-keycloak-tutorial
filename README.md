@@ -34,3 +34,7 @@ Generate two components.
 Add routing to the AppRoutingModule to redirect to the two components.
 
 Create router links.
+
+## install keylocak-angular and keycloak-js library
+
+`npm install keycloak-angular keycloak-js`
