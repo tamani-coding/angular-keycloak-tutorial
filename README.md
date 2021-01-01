@@ -1,11 +1,18 @@
 # angular-keycloak-tutorial
 Angular + Keycloak example projekt
 
+## references
+
+* keycloak getting started
+	* https://www.keycloak.org/docs/latest/getting_started/index.html
+* angular keycloak
+	* https://www.npmjs.com/package/keycloak-angular
+
 ## start keycloak
 
 `docker-compose up`
 
-## initialize keycloak and demo user
+## initialize realm and demo user
 
 * log into administration console with admin user `http://localhost:8080/auth`
 * create a new realm e.g. `my-demo-realm` 
