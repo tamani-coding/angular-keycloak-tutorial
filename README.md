@@ -22,4 +22,15 @@ Angular + Keycloak example projekt
 
 ## creating an angular project
 
+Angular project with routing.
+
 `ng new demo-frontend --routing`
+
+Generate two components.
+
+`ng generate component public-space`
+`ng generate component restricted-space`
+
+Add routing to the AppRoutingModule to redirect to the two components.
+
+Create router links.
