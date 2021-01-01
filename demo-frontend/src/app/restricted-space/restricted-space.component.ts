@@ -20,6 +20,6 @@ export class RestrictedSpaceComponent implements OnInit {
   }
 
   public logout () {
-    this.keycloakService.logout();
+    this.keycloakService.logout('http://localhost:4200');
   }
 }
