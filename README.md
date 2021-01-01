@@ -45,3 +45,9 @@ Create router links.
 ## install keylocak-angular and keycloak-js library
 
 `npm install keycloak-angular keycloak-js`
+
+Setup KeycloakAngular in AppModule: add initialize function, provider and import KeycloakAngularModule
+
+## add guard to app
+
+`ng generate guard keycloak`
