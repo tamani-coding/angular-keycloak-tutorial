@@ -59,3 +59,4 @@ Configure keycloak angular  with 'loadUserProfileAtStartUp: true' to load user p
 
 With KeycloakService you can access user profile details.
 
+With Keycloak service you can logout user (with optional rediect URL).
