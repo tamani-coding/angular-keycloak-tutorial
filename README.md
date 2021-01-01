@@ -20,3 +20,6 @@ Angular + Keycloak example projekt
 	* complete required fields such as email, firstname, lastname
 * your are ready to use the user
 
+## creating an angular project
+
+`ng new demo-frontend --routing`
